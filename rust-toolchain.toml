@@ -1,3 +1,5 @@
 [toolchain]
-channel = "1.79"
-profile = "default"
+channel = "nightly"
+profile = "complete"
+targets = [ "aarch64-apple-darwin" , "x86_64-unknown-linux-gnu" ]
+
